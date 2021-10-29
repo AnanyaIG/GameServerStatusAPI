@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body class="overflow-hidden">    
+    <div class="bg-gray-100 min-h-screen min-w-max flex items-center justify-center px-16">
+        <div class="w-full max-w-lg relative">
+            <div class="max-w-screen-sm items-center relative">
+                <div class="absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob1"></div>
+                <div class="absolute top-0 -right-4 w-72 h-72 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob2"></div>
+                <div class="absolute top-0 -bottom-8 left-20 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob3"></div>
+                </div>
+            <div class="m-8 space-y-4">
+                <div class="max-w-screen-sm max-h-full p-5 bg-gray-500 rounded-lg flex items-center place-content-stretch space-x-8 font-sans ">
+                    <div class="flex-1">
+                        <div class="min-w-max max-h-full p-1 text-green-400 bg-gray-900 text-center rounded font-medium">Server Name</div>
+                    </div>                    
+                    <div class="max-w-sm h-auto p-1 rounded bg-purple-300 text-center text-green-800 font-semibold" id="name">Online</div>
+                </div>    
+                <div class="max-w-screen-sm max-h-full p-5 bg-gray-500 rounded-lg flex items-center justify-between space-x-8 font-sans ">
+                    <div class="flex-1">
+                        <div class="min-w-max max-h-full p-1 text-green-400 bg-gray-900 text-center rounded font-medium">Server Status</div>
+                    </div>
+                    <div class="w-24 h-6 rounded-lg bg-purple-300 text-center text-green-800 font-semibold" id="status">Online</div>
+                </div>
+                <div class="max-w-screen-sm max-h-full p-5 bg-gray-500 rounded-lg flex items-center justify-between space-x-8 font-sans ">
+                    <div class="flex-1">
+                        <div class="min-w-max max-h-full p-1 text-green-400 bg-gray-900 text-center rounded font-medium">Players</div>
+                    </div>
+                    <div class="w-24 h-6 rounded-lg bg-purple-300 text-center text-green-800 font-semibold" id="players">Online</div>                
+                </div>
+                <div class="max-w-screen-sm max-h-full p-5 bg-gray-500 rounded-lg flex items-center justify-between space-x-8 font-sans ">
+                    <div class="flex-1">
+                        <div class="min-w-max max-h-full p-1 text-green-400 bg-gray-900 text-center rounded font-medium">Current Map</div>
+                    </div>
+                    <div class="max-w-sm p-1 rounded bg-purple-300 text-center text-green-800 font-semibold" id="map">Online</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="serverinfo.js"></script>
+</body>
+</html>
