@@ -21,17 +21,15 @@
 To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16](https://nodejs.org/]) or higher + [Yarn v1.13](https://yarnpkg.com/) or higher installed on your computer. From your command line:
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/vitogd/gamedig-api gamedig-api
 
-# Go into the repository
+# Go into the directory
 $ cd gamedig-api
 
 # Install dependencies
 $ npm install
 
 # Run the api
-$ npm run start:dev
+$ npm run start:dev (for dev channel) & npm run start for normal use.
 ```
 
 The default port is 3000, you can change it editing the server.js file:
@@ -76,6 +74,6 @@ Return:
 
 ## :memo: License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/vitogd/gamedig-api/blob/master/LICENSE) for more information.
+This project is under the MIT license. See the [LICENSE] for more information.
 
 ---
