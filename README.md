@@ -1,6 +1,6 @@
 Setup is easy for the front end.
 
-Place the `index.html`, `server.js` and `style.css` files together in the document root directory of any web server of your choice. (Example: Apache).
+Place the `index.html`, `server.js` and `style.css` files, located in `dist/` directory, together in the document root directory of any web server of your choice. (Example: Apache).
 
 That's all there is to the front end setup process.
 
